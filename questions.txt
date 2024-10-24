@@ -1,0 +1,33 @@
+1. What is C programming language?
+2. Explain the structure of a C program.
+3. What are the basic data types in C?
+4. What is a pointer in C?
+5. How do you declare a variable in C?
+6. What is the difference between `printf` and `scanf` functions?
+7. Explain the use of `if`, `else`, and `else if` statements.
+8. What are loops in C? Explain `for`, `while`, and `do-while` loops.
+9. What is an array in C? How do you declare and initialize an array?
+10. What is a function in C? How do you declare and define a function?
+11. Explain the concept of recursion in C.
+12. What is a structure in C? How do you define and use a structure?
+13. What is the difference between `malloc` and `calloc` functions?
+14. Explain the concept of file handling in C.
+15. What are preprocessor directives in C?
+
+
+1. Pointer variable with example explain
+A pointer is a variable that stores the memory address of another variable. Pointers are used for various purposes in C, such as dynamic memory allocation, arrays, and functions.
+
+Here is an example of how to declare and use a pointer variable in C:
+
+int main(){
+    int a = 100;
+    int *ptr;
+    ptr = &a;
+    
+    printf("%d",a);
+     printf("%d",*ptr);
+      printf("%u",&a);
+       printf("%u",ptr);
+}
+
